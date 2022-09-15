@@ -25,7 +25,7 @@ public class ApiResult<E> {
         this.data = data;
     }
 
-    private ApiResult(boolean success, String message) {
+    public ApiResult(boolean success, String message) {
         this.success = success;
         this.message = message;
     }
